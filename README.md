@@ -21,5 +21,5 @@ Conforme os ensinamentos do curso da Alura com a Oracle consegui realizar esse p
 ## 🚀 Resultados
 Para verificar como é o funcionamento basta acessar o link!
 
-[LINK AQUI]([https://studio.d-id.com/share?id=5a7fac2395912cc048e4ba0dc2a6916f&utm_source=copy](https://decodificador-de-texto-snowy-chi.vercel.app))
+[LINK AQUI](https://decodificador-de-texto-snowy-chi.vercel.app)
 
