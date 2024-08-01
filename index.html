@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <img class="logo__alura" src="assets/Frame 6.png" alt="Logo Alura">
+    <main class="container">        
+        <div class="container__conteudo">
+            <div class="container__conteudo__esquerda">
+                <textarea class="container__texto" id="texto-principal" placeholder="Digite seu texto"></textarea>
+                <p class="container__aviso">
+                <img class="container__aviso__img" src="assets/bi_exclamation-circle-fill.png">
+                Apenas letras minúsculas e sem acento.
+                </p>
+            </div>
+            <div class="container__conteudo__botao">
+                <button class="container__botao" id="criptografar" type="button">Criptografar</button>
+                <button class="container__botao" id="descriptografar" type="button">Descriptografar</button>
+            </div>
+        </div>
+        <div class="container__conteudo__resposta">
+            <div class="texto__resposta">
+                <img class="img__resposta" id="mensagem-nao-encontrada" src="assets/High quality products 1 1.png" alt="Nenhuma imagem encontrada">
+                <h3 class="titulo__texto__resposta">Nenhuma mensagem encontrada</h3>
+                <p class="texto__resposta__p">Digite um texto que você deseja criptografar ou descriptografar</p>
+            </div>
+            <div class="texto__criptografado d-none">
+                <p></p>
+                <button class="botao__copiar" onclick="copiarTexto()" id="copiar">Copiar</button>
+            </div>    
+        </div>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Nikolas Yuri com Alura</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
